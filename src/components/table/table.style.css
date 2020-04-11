@@ -1,0 +1,19 @@
+.container {
+    width: 98%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 0px 10px;
+}
+
+.table{
+  width:100%;
+  max-width: 1180px;
+}
+
+.table thead{
+  background-color: #95dada;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,20 @@
+.row-list {
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.row-list:hover {
+  background-color: rgba(149, 218, 218, 0);
+  color: #fff;
+}
+
+.durations{
+  font-size: small;
+}
